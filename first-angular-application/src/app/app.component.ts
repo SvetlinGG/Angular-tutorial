@@ -17,4 +17,6 @@ export class AppComponent {
     console.log(this.title);
     
   }
+
+  imgUrl: string = 'https://miro.medium.com/v2/resize:fit:1200/1*lhfGTouqSQ-fx7PRXaFI-Q.png'
 }
