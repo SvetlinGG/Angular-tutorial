@@ -1,5 +1,9 @@
 <app-header />
 <img [src]="imgUrl" alt="">
+<button disabled="{{isDisabled}}" >Disable Button</button>
+<button [disabled]="isDisabled" >Disable Button</button>
+
+
 <h1>Welcome to my new {{title}}</h1>
 <button (click)="change()">Change</button>
 <app-navbar />

@@ -3,3 +3,8 @@ img{
     height: 100px;
     cursor: pointer;
 }
+button{
+    color: black;
+    border-radius: 5px;
+    border: 2px solid red;;
+}
