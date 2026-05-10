@@ -38,7 +38,7 @@ export class AppComponent {
   }
 
   keyupFiltering(user: HTMLInputElement){
-    console.log(user);
+    console.log(user.id);
     
   }
 }
