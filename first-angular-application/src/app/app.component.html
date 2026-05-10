@@ -10,5 +10,10 @@
 
 <hr>
 
-<button [class.active]="isActive" [class.no-active]="!isActive">Active Me</button>
+<button 
+    [class.active]="isActive" 
+    [class.no-active]="!isActive"
+    [class.active-border]="isActive"
+    [class.no-active-border]="!isActive"
+    >Active Me</button>
 <router-outlet />
