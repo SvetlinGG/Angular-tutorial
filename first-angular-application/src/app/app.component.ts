@@ -24,4 +24,9 @@ export class AppComponent {
   isActive: boolean = true;
 
   fruitName: string = 'apple';
+
+  submit(){
+    console.log('somebody clicked');
+    
+  }
 }
