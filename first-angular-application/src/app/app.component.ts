@@ -29,4 +29,10 @@ export class AppComponent {
     console.log('somebody clicked');
     
   }
+
+  keyEnter(event: object){
+    console.log(event);
+    
+    
+  }
 }

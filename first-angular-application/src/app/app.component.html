@@ -33,4 +33,10 @@
 <hr>
 
 <button (click)="submit()">Click Me</button>
+<!-- event binding -->
+ <hr>
+
+ <button ((mouseover))="submit()">Click Me</button>
+ <input type="text" (keyup)="keyEnter($event)">
+
 <router-outlet />
