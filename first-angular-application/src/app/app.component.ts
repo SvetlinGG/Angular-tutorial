@@ -30,9 +30,12 @@ export class AppComponent {
     
   }
 
-  keyEnter(event: object){
-    console.log(event);
-    
+  keyEnter(event: any){
+    //console.log(event.keyCode);
+    if(event.keyCode == 13){
+      console.log('Enter key Pressed');
+      
+    }
     
   }
 }
