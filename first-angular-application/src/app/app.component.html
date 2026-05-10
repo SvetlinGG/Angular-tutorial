@@ -7,7 +7,7 @@
 <h1>Welcome to my new {{title}}</h1>
 <button (click)="change()">Change</button>
 <app-navbar />
-
+<!-- 
 <hr>
 
 <button 
@@ -28,18 +28,18 @@
     [style.border-radius]="'10px'"
     [style.height]="'40px'"
     [style.width]="'80px'"
-    >Click Again</button>
+    >Click Again</button> -->
 
-<hr>
+<!-- <hr> -->
 
-<button (click)="submit()">Click Me</button>
+<!-- <button (click)="submit()">Click Me</button> -->
 <!-- event binding -->
- <hr>
+ <!-- <hr> -->
 
- <button ((mouseover))="submit()">Click Me</button>
- <input type="text" (keyup)="keyEnter($event)">
+ <!-- <button ((mouseover))="submit()">Click Me</button>
+ <input type="text" (keyup)="keyEnter($event)"> -->
 
- <hr>
+ <!-- <hr>  -->
 
- <input type="text" (keyup.enter)="keyupFiltering()">
+ <input type="text" (keyup.enter)="keyupFiltering(user)" #user>
 <router-outlet />
