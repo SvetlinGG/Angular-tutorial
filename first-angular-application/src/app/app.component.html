@@ -42,4 +42,8 @@
  <!-- <hr>  -->
 
  <input type="text" (keyup.enter)="keyupFiltering(user)" #user id="userInput">
+<hr>
+ <!-- Two Way Data Binding -->
+
+<input type="text" [value]="userName" #username (keyup.enter)="updateUsername(username)">
 <router-outlet />

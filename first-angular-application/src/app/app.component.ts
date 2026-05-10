@@ -22,8 +22,9 @@ export class AppComponent {
 
   isDisabled: boolean = true;
   isActive: boolean = true;
-
   fruitName: string = 'apple';
+
+  userName: string = 'John Doe';
 
   submit(){
     console.log('somebody clicked');
@@ -39,6 +40,12 @@ export class AppComponent {
 
   keyupFiltering(user: HTMLInputElement){
     console.log(user.id);
+    
+  }
+
+  updateUsername(username: HTMLInputElement){
+    this.userName = username.value
+    console.log(this.userName);
     
   }
 }
