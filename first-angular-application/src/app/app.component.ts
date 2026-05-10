@@ -34,8 +34,11 @@ export class AppComponent {
     //console.log(event.keyCode);
     if(event.keyCode == 13){
       console.log('Enter key Pressed');
-      
     }
+  }
+
+  keyupFiltering(){
+    console.log('KeUp Filtering');
     
   }
 }
