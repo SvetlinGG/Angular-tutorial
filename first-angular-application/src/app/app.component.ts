@@ -20,5 +20,6 @@ export class AppComponent {
 
   imgUrl: string = 'https://miro.medium.com/v2/resize:fit:1200/1*lhfGTouqSQ-fx7PRXaFI-Q.png'
 
-  isDisabled: boolean = true
+  isDisabled: boolean = true;
+  isActive: boolean = true;
 }
