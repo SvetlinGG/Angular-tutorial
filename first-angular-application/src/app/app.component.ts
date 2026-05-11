@@ -26,17 +26,20 @@ export class AppComponent {
   fruitName: string = 'apple';
 
   userName: string = 'John Doe';
+  textValue: string = '';
 
   submit(){
     console.log('somebody clicked');
     
   }
 
-  keyEnter(event: any){
+  keyEnter(){
     //console.log(event.keyCode);
-    if(event.keyCode == 13){
-      console.log('Enter key Pressed');
-    }
+    // if(keyCode == 13){
+    //   console.log('Enter key Pressed');
+    // }
+    console.log(this.textValue);
+    
   }
 
   keyupFiltering(user: HTMLInputElement){

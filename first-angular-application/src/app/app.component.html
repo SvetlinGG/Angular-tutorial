@@ -52,4 +52,8 @@
 <input type="text" [(ngModel)]="userName" >
 
 <h3>{{userName}}</h3>
+
+<!--  One way vs two way data binding -->
+
+<input type="text" [value]="textValue" (keyup.enter)="keyEnter()" >
 <router-outlet />
