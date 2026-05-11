@@ -46,4 +46,10 @@
  <!-- Two Way Data Binding -->
 
 <input type="text" [value]="userName" #username (keyup.enter)="updateUsername(username)">
+
+<hr>
+
+<input type="text" [(ngModel)]="userName" >
+
+<h3>{{userName}}</h3>
 <router-outlet />
