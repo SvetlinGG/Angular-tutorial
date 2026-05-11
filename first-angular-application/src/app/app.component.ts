@@ -26,7 +26,7 @@ export class AppComponent {
   fruitName: string = 'apple';
 
   userName: string = 'John Doe';
-  textValue: string = '';
+  textValue: string = 'Value is coming from component';
 
   submit(){
     console.log('somebody clicked');

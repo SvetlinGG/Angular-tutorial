@@ -56,4 +56,8 @@
 <!--  One way vs two way data binding -->
 
 <input type="text" [value]="textValue" (keyup.enter)="keyEnter()" >
+
+<hr>
+
+<input type="text" [(ngModel)]="textValue" (keyup.enter)="keyEnter()">
 <router-outlet />
