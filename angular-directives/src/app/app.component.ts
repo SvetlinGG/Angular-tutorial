@@ -15,6 +15,10 @@ export class AppComponent {
   userName: string = 'John Doe';
   userAge: number = 40;
 
+  isAdmin: boolean = false;
+  isMember: boolean = false;
+  isGuest: boolean = true;
+
   secondUserName: string = 'Svetlin Garabedyan';
 
   users = [
