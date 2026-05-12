@@ -26,4 +26,10 @@ export class AppComponent {
     {firstName: 'Toni', lastName: 'Garabedyan', age: 49},
     {firstName: 'Svetlin', lastName: 'Garabedyan', age: 54},
   ]
+
+  countNumbers: number = 0;
+
+  increment(){
+    this.countNumbers ++;
+  }
 }

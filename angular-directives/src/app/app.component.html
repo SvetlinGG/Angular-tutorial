@@ -26,6 +26,11 @@
 }@else if (isGuest) {
   <h4>Welcome Guest</h4>
 }
+<h4>Number: {{countNumbers}}</h4>
+@if (countNumbers > 5) {
+  <p>You are done on the limit</p>
+}
+<button (click)="increment()">Increment Numbers</button>
 
 
 <router-outlet />
