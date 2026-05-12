@@ -2,5 +2,9 @@
 
 <h2 *ngIf="isLoggedIn" >{{userName}}</h2>
 
+@if (isLoggedIn) {
+  <h2>{{secondUserName}}</h2>
+}
+
 
 <router-outlet />

@@ -12,5 +12,7 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
   
   isLoggedIn: boolean = true;
-  userName: string = 'John Doe'
+  userName: string = 'John Doe';
+
+  secondUserName: string = 'Svetlin Garabedyan';
 }
