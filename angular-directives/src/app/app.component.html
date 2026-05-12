@@ -8,8 +8,10 @@
 
 <ul>
   @for (user of users; track $index) {
-    @if (user.age > 30) {
-      <li>{{user.firstName}} {{user.firstName}} {{user.age}}</li>
+    @if (user.age < 40) {
+      <li>{{user.firstName}} {{user.lastName}} {{user.age}}</li>
+    }@else{
+      <li>No Users of this age</li>
     }
     
   }
