@@ -13,6 +13,13 @@ export class AppComponent {
   
   isLoggedIn: boolean = true;
   userName: string = 'John Doe';
+  userAge: number = 40;
 
   secondUserName: string = 'Svetlin Garabedyan';
+
+  users = [
+    {firstName: 'Gabi', lastName: 'Garabedyan', age: 24},
+    {firstName: 'Toni', lastName: 'Garabedyan', age: 49},
+    {firstName: 'Svetlin', lastName: 'Garabedyan', age: 54},
+  ]
 }
