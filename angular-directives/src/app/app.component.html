@@ -32,5 +32,13 @@
 }
 <button (click)="increment()">Increment Numbers</button>
 
+<!-- ng template -->
+
+<h4 *ngIf="userRole == 'Admin'; else dynamicTemplate">Welcome Admin</h4>
+
+<ng-template #dynamicTemplate>
+  <p>This text is inside in ng-template</p>
+</ng-template>
+
 
 <router-outlet />

@@ -19,6 +19,8 @@ export class AppComponent {
   isMember: boolean = false;
   isGuest: boolean = true;
 
+  userRole: string = 'Admin'
+
   secondUserName: string = 'Svetlin Garabedyan';
 
   users = [
@@ -31,5 +33,7 @@ export class AppComponent {
 
   increment(){
     this.countNumbers ++;
+    //console.log(this.countNumbers);
+    
   }
 }
